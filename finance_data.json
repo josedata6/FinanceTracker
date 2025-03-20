@@ -1,0 +1,37 @@
+{
+    "income": [
+        {
+            "source": "Salary",
+            "amount": 5000,
+            "date": "2025-03-20"
+        },
+        {
+            "source": "Salary",
+            "amount": 5000,
+            "date": "2025-03-20"
+        }
+    ],
+    "expenses": [
+        {
+            "category": "Rent",
+            "amount": 1500,
+            "date": "2025-03-20"
+        },
+        {
+            "category": "Food",
+            "amount": 500,
+            "date": "2025-03-20"
+        },
+        {
+            "category": "Rent",
+            "amount": 1450,
+            "date": "2025-03-20"
+        },
+        {
+            "category": "Food",
+            "amount": 500,
+            "date": "2025-03-20"
+        }
+    ],
+    "savings_goal": 1000
+}
