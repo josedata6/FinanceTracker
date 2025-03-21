@@ -1,0 +1,28 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "PersonalFinanceTracker",
+        "kind": 6,
+        "importPath": "fianceTracker",
+        "description": "fianceTracker",
+        "peekOfCode": "class PersonalFinanceTracker:\n    def __init__(self):\n        self.data = {\"income\": [], \"expenses\": [], \"savings_goal\": 0}\n        self.load_data()\n    def load_data(self):\n        try:\n            with open(\"finance_data.json\", \"r\") as file:\n                self.data = json.load(file)\n        except FileNotFoundError:\n            self.save_data()",
+        "detail": "fianceTracker",
+        "documentation": {}
+    }
+]
